@@ -16,6 +16,7 @@
 		CBDD93A81EF2C58400731688 /* test3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDD93A71EF2C58400731688 /* test3Tests.m */; };
 		CBDD93B31EF2C58400731688 /* test3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDD93B21EF2C58400731688 /* test3UITests.m */; };
 		CBDD93C21EF2C6A800731688 /* TheOmeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDD93C11EF2C6A800731688 /* TheOmeViewController.m */; };
+		CBDD93C51EF2C8C700731688 /* theFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDD93C41EF2C8C700731688 /* theFourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		CBDD93B41EF2C58400731688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBDD93C01EF2C6A800731688 /* TheOmeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheOmeViewController.h; sourceTree = "<group>"; };
 		CBDD93C11EF2C6A800731688 /* TheOmeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheOmeViewController.m; sourceTree = "<group>"; };
+		CBDD93C31EF2C8C700731688 /* theFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = theFourViewController.h; path = ../theFourViewController.h; sourceTree = "<group>"; };
+		CBDD93C41EF2C8C700731688 /* theFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = theFourViewController.m; path = ../theFourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				CBDD93901EF2C58300731688 /* AppDelegate.h */,
+				CBDD93C31EF2C8C700731688 /* theFourViewController.h */,
+				CBDD93C41EF2C8C700731688 /* theFourViewController.m */,
 				CBDD93911EF2C58300731688 /* AppDelegate.m */,
 				CBDD93931EF2C58300731688 /* ViewController.h */,
 				CBDD93941EF2C58300731688 /* ViewController.m */,
@@ -281,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBDD93C51EF2C8C700731688 /* theFourViewController.m in Sources */,
 				CBDD93951EF2C58300731688 /* ViewController.m in Sources */,
 				CBDD93921EF2C58300731688 /* AppDelegate.m in Sources */,
 				CBDD93C21EF2C6A800731688 /* TheOmeViewController.m in Sources */,
