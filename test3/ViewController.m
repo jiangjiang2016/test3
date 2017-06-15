@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
